@@ -3,7 +3,7 @@
         var cookieConfig = $("body").data("shellCollectionpageViewCookie");
         var currentView = $.cookie(cookieConfig.name);
         var foundationContentPath = $(".foundation-content-path").data("foundationContentPath");
-        if (currentView != "column" && foundationContentPath.indexOf("/content/dam/geometrixx") != -1) {
+        if (currentView != "column" && foundationContentPath.indexOf("/content/dam/geometrixx-outdoors") != -1) {
             //force column view
             $.cookie(cookieConfig.name, "column", cookieConfig);
             window.location.reload();
