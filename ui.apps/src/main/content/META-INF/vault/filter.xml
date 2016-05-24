@@ -3,6 +3,7 @@
     <filter root="/apps/aemdevcustomization">
         <exclude pattern="/apps/aemdevcustomization/install" />
     </filter>
+    <filter root="/apps/cq/gui/components/projects/admin/datasource/projectsdatasource" />
     <filter root="/apps/sling" />
     <filter root="/etc/designs/aemdevcustomization"/>
 </workspaceFilter>
