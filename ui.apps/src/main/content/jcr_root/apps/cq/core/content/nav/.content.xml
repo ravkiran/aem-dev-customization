@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:primaryType="nt:unstructured">
+    <genericlists
+        jcr:mixinTypes="[rep:AccessControllable]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Generic Lists"
+        desktopOnly="/miscadmin#/etc/acs-commons/lists"
+        desktopOnlyTitle="Classic UI"
+        href="/genericlists.html/etc/acs-commons/lists"
+        icon="pages"
+        id="cq-generic-lists"
+        order="{Long}900"/>
+</jcr:root>

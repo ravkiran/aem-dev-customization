@@ -4,6 +4,7 @@
         <exclude pattern="/apps/aemdevcustomization/install" />
     </filter>
     <filter root="/apps/cq/gui/components/projects/admin/datasource/projectsdatasource" />
+    <filter root="/apps/cq/core/content/nav" />
     <filter root="/apps/sling" />
     <filter root="/etc/designs/aemdevcustomization"/>
 </workspaceFilter>
