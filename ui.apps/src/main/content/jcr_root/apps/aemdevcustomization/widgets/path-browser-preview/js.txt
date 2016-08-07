@@ -1,0 +1,3 @@
+#base=js
+path-browser-preview.js
+
