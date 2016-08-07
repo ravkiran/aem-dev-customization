@@ -33,7 +33,8 @@
                                 rootPath="/content">
                                 <granite:data
                                     jcr:primaryType="nt:unstructured"
-                                    enable-path-browser-preview="{Boolean}true"/>
+                                    enable-path-browser-preview="{Boolean}true"
+                                    preview-url="$path.thumb.140.100.png"/>
                             </pathbrowser>
                         </items>
                     </column>

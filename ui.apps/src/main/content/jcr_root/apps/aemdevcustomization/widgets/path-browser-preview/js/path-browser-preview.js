@@ -8,7 +8,7 @@
     $(document).on("click", rel_preview_enabled_path_browser, function (e) {
         var target = $(e.target);
         var pathBrowser = target.closest("[data-enable-path-browser-preview='true']");
-        previewUrl = pathBrowser.data("previewUrl") || "${path}.thumb.319.319.png";
+        previewUrl = pathBrowser.data("previewUrl") || "$path.thumb.319.319.png";
         if (pathBrowser.length) {
             var $pathBrowser = pathBrowser.data("pathBrowser");
             var $pathBrowserPicker = $pathBrowser.$picker;
@@ -34,7 +34,7 @@
         var previewImage = $(rel_path_browser_preview_image);
         previewImage.find("img").remove();
         if (path) {
-            var previewThumbnail = previewUrl.replace("${path}", path);
+            var previewThumbnail = previewUrl.replace("$path", path);
             previewImage.append("<img src='" + previewThumbnail + "'>");
         }
     });
